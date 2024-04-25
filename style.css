@@ -1,0 +1,28 @@
+.movie-brief{
+    display : flex;
+    flex-wrap : wrap;
+    gap : 10px;
+    justify-content: space-around;
+}
+
+.brief-info{
+    display : flex;
+    flex-direction : column;
+    text-align: center;
+    gap : 10px;
+    justify-content: center;
+    align-items : center;
+    object-fit: cover;
+}
+
+.brief-info .brief-movie-title{
+    width : 100%;
+}
+
+
+.brief-info .brief-movie-title{
+    font-size: 1rem;
+    font-display: bold;
+}
+
+/* Path: filmwiz*/
