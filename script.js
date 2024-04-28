@@ -41,9 +41,9 @@ async function displaySmallMovie(allMovies){
         <div class = "brief-info">
             <img src = ${(allMovies[i]).Poster} alt = "${(allMovies[i]).Title}"> 
             <div class = "brief-movie-title">
-                <h1 >${(allMovies[i]).Title}</h1>
+                <h1 class = "brief-info-title">${(allMovies[i]).Title}</h1>
             </div>
-            <h1>${(allMovies[i]).Year}</h1>
+            <h3 class = "brief-info-h3">${(allMovies[i]).Year}</h3>
         </div>
         </a>
         `;
