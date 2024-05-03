@@ -3,6 +3,9 @@ html {
     color : white;
 }
 
+#genre-filter{
+    font-family : 'Rubik',sans-serif;
+}
 
 .logo{
     background-color: white;
@@ -86,4 +89,4 @@ footer{
     justify-content: flex-end;
     align-items: flex-end;
 }
-/* Path: filmwizz*/
+/* Path: filmwiz*/
