@@ -90,3 +90,41 @@ footer{
     align-items: flex-end;
 }
 /* Path: filmwiz*/
+/*-------------------------movie details--------------------------------*/
+.mainMovieDetails{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:50px;
+}
+.image{
+    width:auto;
+    height:auto;
+}
+.image img{
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+    height:150vmin;
+    width:80vmin;
+    max-height:450px;
+    max-width:300px;
+}
+.info{
+    width:800px;
+    min-width:280px;
+    font-size: 20px;
+}
+.info h1{
+    font-size: 42px;
+}
+.info p{
+    color:rgb(215, 207, 207);
+    font-family:fantasy;
+}
+.info span{
+    color:rgb(131, 11, 11);
+}
+#plot{
+    font-family: arial;
+}

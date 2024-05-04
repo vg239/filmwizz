@@ -136,18 +136,22 @@ async function getMovieDetails(){
 
         
         var content = `
-        <img src=${data.Poster} alt="${data.Title}">
-        <h1>${data.Title}</h1>
-        <h2>Year: ${data.Year}</h2>
-        <p>Released: ${data.Released}</p>
-        <p>Genre: ${data.Genre}</p>
-        <p>Director: ${data.Director}</p>
-        <p>Actors: ${data.Actors}</p>
-        <p>Plot: ${data.Plot}</p>
-        <p>BoxOffice: ${data.BoxOffice}</p>
-        <p>imdbRating: ${data.imdbRating}</p>
-        <p>imdbVotes: ${data.imdbVotes}</p>
-        <p>Awards: ${data.Awards}</p>
+        <div class="image">
+           <img src=${data.Poster} alt="${data.Title}" >
+        </div>
+        <div class="info">
+        <h1 id="title">${data.Title}</h1>
+        <h2 ><span>Year : </span>  ${data.Year}</h2>
+        <p ><span>Released : </span>  ${data.Released}</p>
+        <p ><span>Genre : </span>  ${data.Genre}</p>
+        <p ><span>Director : </span>  ${data.Director}</p>
+        <p ><span>Actors : </span>  ${data.Actors}</p>
+        <p><span>BoxOffice : </span>  ${data.BoxOffice}</p>
+        <p><span>imdbRating : </span>  ${data.imdbRating}</p>
+        <p><span>imdbVotes : </span>  ${data.imdbVotes}</p>
+        <p><span>Awards : </span>  ${data.Awards}</p>
+        <p id="plot"><span>Plot : </span>  ${data.Plot}</p>
+        </div>
         `;
         
         document.querySelector('.mainMovieDetails').innerHTML=content;
