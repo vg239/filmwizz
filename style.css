@@ -17,8 +17,16 @@ html{
     font-size : 1.75rem;
 }
 
+input[type="text"] {
+    padding-left: 10px; /* Adjust this value to increase or decrease the space */
+}
+
 #genre-filter{
     font-family : 'Rubik',sans-serif;
+    background-color: orange;
+    color : black;
+    font-size: 1rem;
+    border-radius: 15px;
 }
 
 .logo{
@@ -52,6 +60,7 @@ input{
     height : 2.5rem;
     font-size: 1.25rem;
     font-family : 'Rubik',sans-serif;
+    border-radius: 15px;
 }
 
 .movie-brief .brief-info-title{
